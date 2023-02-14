@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    font-family: Inter;
+}
+.wrapper {
+    padding: 10px;
+}
+.card {
+    background: white;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+.card--image {
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.card--title {
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-weight: 500;
+}
+.card--role {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px 0 0 0;
+    color: rgb(252, 143, 143);
+}
+.card--console {
+    text-align: center;
+    margin-top: 5px;
+}
+.card--email {
+    /*padding: 10px 35px 10px 35px;*/
+    padding: 10px 30px 10px 30px;
+    margin: 5px;
+    background-color: rgb(255, 218, 218);
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+    transition: 300ms;
+}
+.card--phone {
+    /*padding: 10px 35px 10px 35px;*/
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    background-color: rgb(175, 175, 175);
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+    transition: 300ms;
+}
+.card--email:hover {
+    transform: rotate(3deg);
+    transition: 300ms;
+}
+.card--phone:hover {
+    transform: rotate(-3deg);
+    transition: 300ms;
+}
+.card--text {
+    padding: 0 35px 10px 35px;
+    margin: 15px 0 0 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+button > img {
+    margin-left: 5px;
+    height: 15px;
+}
